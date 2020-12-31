@@ -1,0 +1,29 @@
+{
+  "name": "michat",
+  "version": "1.0.0",
+  "description": "A messaging web application build by Dennis Acheampong and Brvh Justice, Starting on the 17th December, 2020.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiChatName/MiChat.git"
+  },
+  "author": "Dennis Acheampong and Brvh Justice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiChatName/MiChat/issues"
+  },
+  "homepage": "https://github.com/MiChatName/MiChat#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
